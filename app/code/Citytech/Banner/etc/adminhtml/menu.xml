@@ -6,7 +6,10 @@
              title="Manage Banners"
              module="Citytech_Banner"
              sortOrder="90"
+             parent="Magento_Backend::admin"
              action="citytech_banner/banner/index"
              resource="Citytech_Banner::manage"/>
     </menu>
 </config>
+
+
