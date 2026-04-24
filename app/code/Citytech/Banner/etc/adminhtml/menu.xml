@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <add id="Citytech_Banner::banner"
+         title="Banners"
+         module="Citytech_Banner"
+         sortOrder="80"
+         resource="Citytech_Banner::manage"
+         parent="Magento_Backend::content"/>
+    <add id="Citytech_Banner::manage"
+         title="Manage Banners"
+         module="Citytech_Banner"
+         sortOrder="10"
+         parent="Citytech_Banner::banner"
+         action="citytech_banner/banner/index"
+         resource="Citytech_Banner::manage"/>
+</menu>
