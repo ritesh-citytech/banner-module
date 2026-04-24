@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<acl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <resources>
+        <resource id="Magento_Backend::admin">
+            <resource id="Citytech_Banner::banner" title="Banner" sortOrder="90">
+                <resource id="Citytech_Banner::manage" title="Manage Banners" sortOrder="10"/>
+            </resource>
+        </resource>
+    </resources>
+</acl>
